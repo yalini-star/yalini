@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="methods">
+  <test name="Default test(failed)" parallel="methods">
+    <classes>
+      <class name="TestNg.TestNgyal">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="SecondTest"/>
+        </methods>
+      </class> <!-- TestNg.TestNgyal -->
+      <class name="TestNg.TestNgyal2">
+        <methods>
+          <include name="firsttestingfile1"/>
+          <include name="SecondTest"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestNg.TestNgyal2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
