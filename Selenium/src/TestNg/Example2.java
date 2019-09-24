@@ -9,7 +9,7 @@ public class Example2 {
 	/*
 	 * @Test(dataProvider="dp")
 	 */
-	//
+	/////
 	public void test(Integer n,String s) {
 		System.out.println("In:"+n+"and s"+s);
 	}
