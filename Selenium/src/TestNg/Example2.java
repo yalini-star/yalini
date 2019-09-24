@@ -13,7 +13,7 @@ public class Example2 {
 	public void test(Integer n,String s) {
 		System.out.println("In:"+n+"and s"+s);
 	}
-
+//
 	@DataProvider
 	public Object[][] dp(){
 		return new Object[][] {
